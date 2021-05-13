@@ -1,0 +1,25 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-api-zcash",
+    "insight-ui-zcash",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "/home/tongyuhu/.zcash",
+        "exec": "/home/tongyuhu/zc-panda/panda_bin/pandad"
+      }
+    },
+    "insight-api-zcash": {
+      "routePrefix": "api"
+    },
+    "insight-ui-zcash": {
+      "apiPrefix": "api",
+      "routePrefix": ""
+    }
+  }
+}
