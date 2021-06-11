@@ -11,7 +11,7 @@
     "bitcoind": {
       "spawn": {
         "datadir": "/home/tongyuhu/.zcash",
-        "exec": "/home/tongyuhu/zc-panda/panda_bin/pandad"
+        "exec": "/home/tongyuhu/panda/panda_bin/pandad"
       }
     },
     "insight-api-zcash": {
